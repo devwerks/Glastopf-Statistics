@@ -112,7 +112,7 @@ def selectQuery():
 
 def version():
     
-    sys.stdout.write("\nGlastopf Statistics 0.1\n")
+    sys.stdout.write("\nGlastopf Statistics 0.2\n")
     sys.stdout.write("Author: Johannes Schroeter - www.devwerks.net\n\n")
         
 def help():
@@ -125,7 +125,7 @@ def help():
     sys.stdout.write("4:Busy Attackers\n")
     sys.stdout.write("5:Top15 intext requests\n")
     sys.stdout.write("6:Top15 intitle requests\n")
-    sys.stdout.write("7:Top10 inurl requests\n\n")
+    sys.stdout.write("7:Top10 inurl requests\n")
     sys.stdout.write("8:Top4 files with VT results\n\n")
 
 def main():
