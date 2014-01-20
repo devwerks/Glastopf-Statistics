@@ -11,7 +11,7 @@ import sqlite3, sys, getopt, simplejson, urllib, urllib2
 dbfileglastopf = '/opt/myhoneypot/db/glastopf.db'
 
 #Change here your VirusTotal API Key *Public API limited to 4 requests per minute*
-vtapikey = '36f43b91fc85ea8d5c0dcbf7b3089d9a4538069c25dc7f93f1d64354060b9f0a'
+vtapikey = ''
 
 #VirusTotal URL 
 vturl = "https://www.virustotal.com/vtapi/v2/file/report"
